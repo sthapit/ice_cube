@@ -1,5 +1,7 @@
 require 'yaml'
 
+#Fork for Ruby >= 3
+
 module IceCube
   module NullI18n
     def self.t(key, options = {})
